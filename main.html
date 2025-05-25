@@ -4,10 +4,108 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 1100px;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .imageContainer img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .col200 {
+      width: 200px;
+    }
+
+    .col600 {
+      width: 600px;
+    }
+
+    img.arch-img {
+      width: 100%;
+      border-radius: 4px;
+    }
+
+    .text-content {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+
+  <div class="container">
+    <h1>Architecture Wonders</h1>
+
+    <div class="imageContainer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Parthenon_from_west.jpg/1024px-Parthenon_from_west.jpg" alt="Architecture Overview">
+    </div>
+
+    <table>
+      <tr>
+        <td class="col200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Taj_Mahal_in_March_2004.jpg/640px-Taj_Mahal_in_March_2004.jpg" alt="Taj Mahal" class="arch-img">
+        </td>
+        <td class="col600 text-content">
+          The Taj Mahal is an ivory-white marble mausoleum in India, a symbol of love and a masterpiece of Mughal architecture.
+        </td>
+        <td class="col200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Eiffel_Tower_from_the_Trocadero%2C_Paris_5_April_2019.jpg/640px-Eiffel_Tower_from_the_Trocadero%2C_Paris_5_April_2019.jpg" alt="Eiffel Tower" class="arch-img">
+        </td>
+      </tr>
+      <tr>
+        <td class="col200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/640px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" alt="Colosseum" class="arch-img">
+        </td>
+        <td class="col600 text-content">
+          The Colosseum in Rome is an ancient amphitheater showcasing Roman engineering and architectural brilliance.
+        </td>
+        <td class="col200">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sydney_Opera_House_Sails.jpg/640px-Sydney_Opera_House_Sails.jpg" alt="Sydney Opera House" class="arch-img">
+        </td>
+      </tr>
+    </table>
+  </div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
